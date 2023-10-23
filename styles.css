@@ -1,0 +1,120 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+header {
+    background-color: #262d3b;
+}
+
+.banner-image img{
+    display: block;
+    margin-top: 150px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Style the navigation bar */
+nav {
+    background-color: #262d3b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Align elements to the left */
+    padding: 10px;
+}
+
+nav li{
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px; /* Add some spacing around the navigation links */
+}
+nav img{
+    display: flex;
+    padding: auto;
+}
+
+/* Style the navigation links on hover */
+nav a:hover {
+    background-color: #38455f;
+    border-radius: 10px;
+}
+
+/* Style the sections (you can add content here) */
+section {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header img {
+    width: 60px; /* Adjust the icon's width */
+    height: 60px; /* Adjust the icon's height */
+    margin: 5px 0; /* Add vertical spacing */
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the rows horizontally */
+}
+
+.image-row .image-container{
+    width: 200px; /* Set the width to your desired image width */
+    text-align: center;
+    margin: 10px;
+}
+
+.image-row .image-container img {
+    width: 200px;
+    height: 360px;
+}
+
+
+/* Style each image row */
+.image-row {
+    display: flex;
+    margin: 20px; /* Add spacing between rows */
+}
+
+
+.image-gallery .image-row .image-container img{
+    border-radius: 10px;
+}
+
+
+.image-text {
+    font-size: 20px; /* Set the text size as desired */
+    margin-top: 5px; /* Add space between the image and text */
+}
+
+
+/* Center-align the "Load More" button */
+#load-more {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+#old-content{
+    display: none;
+}
